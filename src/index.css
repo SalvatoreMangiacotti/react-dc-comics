@@ -1,7 +1,15 @@
+/* RESETS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+body {
+  /* DEBUG */
+  background-color: lavender;
 }
 
 
@@ -13,3 +21,29 @@ ul li {
 a {
   text-decoration: none;
 }
+
+
+/* HEADER */
+
+
+/* MAIN */
+
+#secondary_content li img {
+  width: 50px;
+}
+
+
+#secondary_content ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+#secondary_content ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+/* FOOTER */
