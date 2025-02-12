@@ -129,7 +129,10 @@ const FooterLinks = () => {
                                 <a href="#">DC Power Visa</a>
                             </li>
                         </ul>
+
                     </div>
+
+                    <img src="./img/dc-logo-bg.png" />
 
                 </div>
 
