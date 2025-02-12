@@ -1,15 +1,25 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import './App.css'
+import Header from "./components/Header.jsx"
+import MainContent from "./components/MainContent.jsx"
+import MainBrand from "./components/MainBrand.jsx"
+import FooterNav from "./components/FooterNav.jsx"
+import FooterSocialMedia from "./components/FooterSocialMedia.jsx"
+
+
+// import './App.css'
 
 
 const App = () => {
   return (
     <>
       <Header />
-      <Main />
-      <Footer />
+      <main>
+        <MainContent />
+        <MainBrand />
+      </main>
+      <footer>
+        <FooterNav />
+        <FooterSocialMedia />
+      </footer>
     </>
   )
 }

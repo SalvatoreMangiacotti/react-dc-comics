@@ -1,50 +1,21 @@
-/* RESETS */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
-  /* DEBUG */
   background-color: lavender;
 }
 
-
-ul li,
-#root {
+ul li {
   list-style: none;
 }
-
 
 a {
   text-decoration: none;
 }
 
-
-/* HEADER */
-
-
-/* MAIN */
-
-#secondary_content li img {
-  width: 50px;
+#brand_content ul img {
+  width: 40px;
 }
-
-
-#secondary_content ul {
-  display: flex;
-  justify-content: center;
-}
-
-
-#secondary_content ul li {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-
-/* FOOTER */
