@@ -13,7 +13,8 @@ body {
 }
 
 
-ul li {
+ul li,
+#root {
   list-style: none;
 }
 
