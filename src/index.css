@@ -36,7 +36,7 @@ img {
 
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -93,9 +93,6 @@ header nav ul a {
 .brand_content ul {
   display: flex;
   justify-content: space-evenly;
-
-  max-width: 1280px;
-  margin: 0 auto;
 }
 
 
@@ -139,6 +136,7 @@ header nav ul a {
   top: 50%;
   right: 0;
   translate: 0 -50%;
+  z-index: 1;
 }
 
 
