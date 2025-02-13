@@ -1,12 +1,14 @@
-const headerNavbar = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"]
-
-const NavBar = () => {
+const NavBar = (props) => {
     return (
-        headerNavbar.map((link) => (
-            <li>
-                <a href="#">{link}</a>
-            </li>
-        ))
+        <ul>
+            {
+                props.link.map((link) => (
+                    <li key={link.id}>
+                        <a href="#">{link.text}</a>
+                    </li>
+                ))
+            }
+        </ul>
     )
 }
 

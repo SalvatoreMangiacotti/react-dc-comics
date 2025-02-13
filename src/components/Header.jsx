@@ -1,14 +1,17 @@
 import NavBar from "./HeaderNav";
 
-const Header = () => {
+const Header = (props) => {
     return (
         <>
             <header>
-                <div id="logo">
-                    <img src="./img/dc-logo.png" alt="dc-logo" />
-                </div>
+                <nav>
+                    <div id="logo">
+                        <img src="./img/dc-logo.png" alt="dc-logo" />
+                    </div>
 
-                <NavBar />
+                    <NavBar link={props.link} />
+                </nav>
+
             </header>
         </>
     )
