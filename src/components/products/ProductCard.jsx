@@ -1,4 +1,5 @@
 export default function ProductCard(props) {
+
     const { thumb, series } = props.productInfo;
 
     return (

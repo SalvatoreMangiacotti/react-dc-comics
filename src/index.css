@@ -226,6 +226,7 @@ header nav ul a {
   object-fit: cover;
   object-position: top;
   clip-path: inset(0 0 10% 0);
+  cursor: pointer;
 }
 
 
