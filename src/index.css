@@ -41,6 +41,12 @@ img {
 }
 
 
+#jumbo {
+  background-image: url('../public/img/jumbotron.jpg');
+  height: 400px;
+}
+
+
 /* HEADER */
 
 header {
@@ -175,4 +181,23 @@ header nav ul a {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+
+/* CARDS CONTAINER */
+
+#cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 3rem;
+}
+
+.card {
+  width: 15%;
+}
+
+
+.card img {
+  width: 100%;
 }

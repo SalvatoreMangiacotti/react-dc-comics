@@ -11,7 +11,6 @@ const Header = (props) => {
 
                     <NavBar link={props.link} />
                 </nav>
-
             </header>
         </>
     )
