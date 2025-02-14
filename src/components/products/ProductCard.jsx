@@ -3,8 +3,11 @@ export default function ProductCard(props) {
 
     return (
         <div className="card">
-            <img src={thumb} />
-            <h2>{series}</h2>
+            <figure>
+                <img src={thumb} />
+            </figure>
+
+            <h4>{series}</h4>
         </div>
     )
 }
