@@ -86,6 +86,18 @@ header nav ul a {
 
 .main_content {
   padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_content span {
+  background-color: dodgerblue;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
 }
 
 .main_content h2 {
@@ -202,9 +214,11 @@ header nav ul a {
   width: 15%;
 }
 
+
 .card h4 {
   color: white;
 }
+
 
 .card img {
   width: 100%;
@@ -212,4 +226,17 @@ header nav ul a {
   object-fit: cover;
   object-position: top;
   clip-path: inset(0 0 10% 0);
+}
+
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 80%;
+  }
 }

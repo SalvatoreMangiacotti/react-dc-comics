@@ -7,6 +7,7 @@ const MainContent = () => {
                 <div id="jumbo"></div>
                 <div className="container main_content">
                     <Comics />
+                    <span>LOAD MORE</span>
                 </div>
             </div>
         </>
